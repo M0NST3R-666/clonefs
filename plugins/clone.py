@@ -76,7 +76,7 @@ async def clone(client, message):
             vj.db_channel = db_channel
         await StreamBot.send_message(chat_id=LOG_CHANNEL, text=f"#newclone\n**Bot ID:** `{details['bot_id']}`\n**User ID:** `{details['user_id']}`\n**Name:** `{details['name']}`\n**Username:** @{details['username']}\n**Token:** `{details['token']}`\n**DB Channel ID:** `{details['db_channel_id']}`")
     except BaseException as e:
-        await msg.edit_text(f"⚠️ <b>Bot Error:</b>\n\n<code>{e}</code>\n\n**Kindly forward this message to @KingVJ01 to get assistance.**")
+        await msg.edit_text(f"⚠️ <b>Bot Error:</b>\n\n<code>{e}</code>\n\n**Kindly forward this message to @DUNEBOTS to get assistance.**")
 
 @Client.on_message(filters.command("deletecloned") & filters.private)
 async def delete_cloned_bot(client, message):
