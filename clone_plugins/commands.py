@@ -557,7 +557,8 @@ async def settings_command(client: Client, message: Message):
         "<b>/fsub_chnl</b> - View list of force-sub channels.\n"
         "<b>/add_admins</b> - Add new admin IDs.\n"
         "<b>/del_admins</b> - Delete admin IDs.\n"
-        "<b>/admin_list</b> - View list of bot admins."
+        "<b>/admin_list</b> - View list of bot admins.\n"
+        "<b>/batch</b> - Make batch of messages."
     )
     
     reply_markup = InlineKeyboardMarkup([
