@@ -121,7 +121,7 @@ async def start_command(client: Client, message: Message):
         except Exception as e:
             logger.error(f"Error deleting message: {e}")
 
-    else:  # Basic /start command
+    else:
         me = await client.get_me()
         buttons = [
             [
