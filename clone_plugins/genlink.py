@@ -13,7 +13,7 @@ from clone_plugins.functions import is_subscribed, is_admin, encode, get_message
 from pyrogram import enums
 import base64
 
-command_list = ['start', 'users', 'broadcast', 'batch', 'genlink', 'help', 'cmd', 'info', 'add_fsub', 'fsub_chnl', 'restart', 'del_fsub', 'add_admins', 'del_admins', 'admin_list', 'cancel', 'auto_del', 'forcesub', 'files', 'add_banuser', 'del_banuser', 'banuser_list', 'status', 'req_fsub']
+command_list = ['start', 'users', 'broadcast', 'batch', 'genlink', 'help', 'cmd', 'info', 'add_fsub', 'fsub_chnl', 'restart', 'del_fsub', 'add_admins', 'del_admins', 'admin_list', 'cancel', 'auto_del', 'forcesub', 'files', 'add_banuser', 'del_banuser', 'banuser_list', 'status', 'req_fsub', 'settings']
 
 @Client.on_message(~filters.command(command_list) & filters.private & is_admin)
 async def channel_post(client: Client, message: Message):
