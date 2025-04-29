@@ -125,7 +125,7 @@ async def start_command(client: Client, message: Message):
         me = await client.get_me()
         buttons = [
             [
-                InlineKeyboardButton('💝 Subscribe My YouTube Channel', url='https://youtube.com/@Tech_VJ')
+                InlineKeyboardButton('💝 Subscribe My YouTube Channel', url='https://t.me/+R74x2lGE05wyM2U1')
             ],
             [
                 InlineKeyboardButton('🤖 Create Your Own Clone Bot', url=f'https://t.me/{BOT_USERNAME}?start=clone')
@@ -232,7 +232,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('Jᴏɪɴ Mʏ Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ', url='https://t.me/+R74x2lGE05wyM2U1')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[

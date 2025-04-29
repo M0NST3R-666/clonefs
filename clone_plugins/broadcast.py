@@ -57,7 +57,7 @@ async def pm_broadcast(bot, message):
         print(f"error: {e}")
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 async def broadcast_messages(bot_id, user_id, message):
@@ -81,5 +81,5 @@ async def broadcast_messages(bot_id, user_id, message):
         return False, "Error"
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS

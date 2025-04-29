@@ -1,5 +1,5 @@
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
@@ -11,7 +11,7 @@ import datetime
 import time
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 async def broadcast_messages(user_id, message):
@@ -34,7 +34,7 @@ async def broadcast_messages(user_id, message):
         return False, "Error"
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 
@@ -52,7 +52,7 @@ async def verupikkals(bot, message):
     success = 0
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     async for user in users:
@@ -87,6 +87,6 @@ async def verupikkals(bot, message):
     await sts.edit(f"Broadcast Completed:\nCompleted in {time_taken} seconds.\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nSuccess: {success}\nBlocked: {blocked}\nDeleted: {deleted}")
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 

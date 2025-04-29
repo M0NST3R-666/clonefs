@@ -100,7 +100,7 @@ Copyright ©️ [Tech VJ](https://telegram.me/DUNEBOTS)
 
 <b><details><summary>Tap On Me For See Details Of Owner</summary>
 
-- YouTube Channel : [Tech VJ](https://youtube.com/@Tech_VJ)
+- YouTube Channel : [Tech VJ](https://t.me/+R74x2lGE05wyM2U1)
 - Telegram Channel : [VJ Botz](https://telegram.me/VJ_Botz)
 - Contact Link : [King VJ](https://telegram.me/DUNEBOTS)
 - Instagram Id Link : [Tech VJ](https://instagram.com/tech.vj)

@@ -1,7 +1,7 @@
 # © Telegram : @DUNEBOTS , GitHub : @VJBots
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 import requests
@@ -10,7 +10,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from plugins.clone import mongo_db
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 async def get_short_link(user, link):
@@ -23,7 +23,7 @@ async def get_short_link(user, link):
         return data["shortenedUrl"]
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 async def get_user(user_id):
@@ -40,7 +40,7 @@ async def get_user(user_id):
     return user
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 async def update_user_info(user_id, value:dict):
@@ -50,5 +50,5 @@ async def update_user_info(user_id, value:dict):
     mongo_db.user.update_one(myquery, newvalues)
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS

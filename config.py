@@ -1,5 +1,5 @@
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 

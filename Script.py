@@ -1,5 +1,5 @@
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 
@@ -8,7 +8,7 @@ class script(object):
 Asᴋ ᴅᴏᴜʙᴛ ᴏɴ  @DUNE_BOTS.</b>""".encode("utf-8").decode("utf-8")
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     
@@ -19,7 +19,7 @@ Asᴋ ᴅᴏᴜʙᴛ ᴏɴ  @DUNE_BOTS.</b>""".encode("utf-8").decode("utf-8")
 Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/DUNEBOTS)</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     SHORTENER_API_MESSAGE = """<b>Tᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ Sʜᴏʀᴛɴᴇʀ Wᴇʙsɪᴛᴇ API, /api (ᴀᴘɪ)
@@ -33,7 +33,7 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`
 If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     CLONE_START_TXT = """<b>Hᴇʟʟᴏ {}, Mʏ Nᴀᴍᴇ {} ❤️, I Aᴍ Lᴀᴛᴇsᴛ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Pᴏᴡᴇʀғᴜʟ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ + Cʟᴏɴᴇ Fᴇᴀᴛᴜʀᴇ + Mᴜʟᴛɪᴘʟᴇ Fᴏʀᴄᴇ-sᴜʙ Aɴᴅ Aᴅᴍɪɴ Wɪᴛʜ Bᴇsᴛ UI Pᴇʀғᴏʀᴍᴀɴᴄᴇ. 
@@ -43,7 +43,7 @@ Asᴋ ᴅᴏᴜʙᴛ ᴏɴ @DUNE_BOTS
 ᴜsᴇ /settings ᴛᴏ ᴍᴀɴᴀɢᴇ ʙᴏᴛ sᴇᴛᴛɪɴɢs</b>""".encode("utf-8").decode("utf-8")
 
     # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     ABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
@@ -73,7 +73,7 @@ Asᴋ ᴅᴏᴜʙᴛ ᴏɴ @DUNE_BOTS
 """
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     CLONE_TXT = """<b>ʜᴇʟʟᴏ {} 👋
@@ -89,7 +89,7 @@ First Send /clone command then follow below steps.
 ᴛʜᴇɴ ɪ ᴀᴍ ᴛʀʏ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴄᴏᴘʏ ʙᴏᴛ ᴏғ ᴍᴇ ғᴏʀ ʏᴏᴜ ᴏɴʟʏ 😌</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     HELP_TXT = """<b><u>💢 HOW TO USE THE BOT ☺️</u>
@@ -112,7 +112,7 @@ First Send /clone command then follow below steps.
 🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
 
@@ -129,7 +129,7 @@ First Send /clone command then follow below steps.
 🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
 
     LOG_TEXT = """<b>#NewUser
@@ -147,5 +147,5 @@ Nᴀᴍᴇ - {}</b>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot https://t.me/+R74x2lGE05wyM2U1
 # Ask Doubt on telegram @DUNEBOTS
