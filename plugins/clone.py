@@ -63,7 +63,7 @@ async def clone(client, message):
             'name': bot.first_name,
             'token': bot_token,
             'username': bot.username,
-            'db_channel_id': channel_id
+            'db_channel': channel_id
         }
 
         vj.bot_details = details
